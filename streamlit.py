@@ -16,7 +16,7 @@ nltk.download('stopwords')
 nltk.download('wordnet')
 
 # Load saved models and vectorizer
-model = joblib.load('logistic_regression.joblib')
+model = joblib.load('assignment - logistic_regression.ipynb')
 tfidf_vectorizer_loaded = joblib.load('tfidf_vectorizer.joblib')
 
 # Initialize the lemmatizer, stemmer, and stop words
